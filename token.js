@@ -1,5 +1,5 @@
 import jwt from 'jsonwebtoken';
-import config from '../config/env.js';
+import config from './env.js';
 
 /**
  * Signs a short-lived access token.

@@ -25,7 +25,7 @@ const config = {
   },
 
   client: {
-    url: process.env.CLIENT_URL || 'http://localhost:3000',
+    url: process.env.CLIENT_URL || 'http://localhost:7000',
   },
 };
 

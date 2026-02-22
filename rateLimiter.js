@@ -1,5 +1,5 @@
 import rateLimit from 'express-rate-limit';
-import { sendError } from '../utils/response.js';
+import { sendError } from './response.js';
 
 const rateLimitHandler = (req, res) => {
   return sendError(res, {

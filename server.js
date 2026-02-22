@@ -1,7 +1,7 @@
 import app from './app.js';
-import config from './config/env.js';
-import connectDB from './config/database.js';
-import logger from './utils/logger.js';
+import config from './env.js';
+import connectDB from './database.js';
+import logger from './logger.js';
 
 const startServer = async () => {
   // Connect to MongoDB first

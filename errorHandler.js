@@ -1,5 +1,5 @@
-import logger from '../utils/logger.js';
-import config from '../config/env.js';
+import logger from './logger.js';
+import config from './env.js';
 
 /**
  * Global error handling middleware.

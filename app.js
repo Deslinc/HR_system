@@ -4,12 +4,12 @@ import cors from 'cors';
 import morgan from 'morgan';
 import cookieParser from 'cookie-parser';
 
-import config from './config/env.js';
-import authRoutes from './routes/auth.routes.js';
-import errorHandler from './middleware/errorHandler.js';
-import { apiLimiter } from './middleware/rateLimiter.js';
-import { sendError } from './utils/response.js';
-import logger from './utils/logger.js';
+import config from './env.js';
+import authRoutes from './routes/auth.js';
+import errorHandler from './errorHandler.js';
+import { apiLimiter } from './rateLimiter.js';
+import { sendError } from './response.js';
+import logger from './logger.js';
 
 const app = express();
 
