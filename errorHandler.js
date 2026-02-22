@@ -7,7 +7,21 @@ import config from './env.js';
  */
 // eslint-disable-next-line no-unused-vars
 const errorHandler = (err, req, res, next) => {
-  logger.error(`${err.name}: ${err.message}`, { stack: err.stack });
+  // Log the full error
+  logger.error(`${err.name || 'Error'}: ${err.message}`, { 
+    stack: err.stack,
+    statusCode: err.statusCode,
+    url: req.originalUrl,
+    method: req.method 
+  });
+
+  // Custom application errors (thrown with statusCode property)
+  if (err.statusCode) {
+    return res.status(err.statusCode).json({
+      success: false,
+      message: err.message,
+    });
+  }
 
   // Mongoose validation error
   if (err.name === 'ValidationError') {
@@ -38,9 +52,10 @@ const errorHandler = (err, req, res, next) => {
     return res.status(401).json({ success: false, message: 'Token has expired.' });
   }
 
-  const statusCode = err.statusCode || 500;
+  // Default error
+  const statusCode = 500;
   const message =
-    statusCode === 500 && config.env === 'production'
+    config.env === 'production'
       ? 'An unexpected error occurred. Please try again later.'
       : err.message || 'Internal Server Error';
 

@@ -139,12 +139,11 @@ userSchema.virtual('isLocked').get(function () {
 });
 
 // ── Pre-save: Hash password ────────────────────────────────
-userSchema.pre('save', async function (next) {
-  if (!this.isModified('password') || !this.password) return next();
+userSchema.pre('save', async function () {
+  if (!this.isModified('password') || !this.password) return;
   const salt = await bcrypt.genSalt(12);
   this.password = await bcrypt.hash(this.password, salt);
   if (!this.isNew) this.passwordChangedAt = new Date();
-  next();
 });
 
 // ── Instance method: Compare password ─────────────────────

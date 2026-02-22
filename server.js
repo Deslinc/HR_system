@@ -8,7 +8,7 @@ const startServer = async () => {
   await connectDB();
 
   const server = app.listen(config.port, () => {
-    logger.info(`HR and PayRole system API running in ${config.env} mode on port ${config.port}`);
+    logger.info(`HR and PayRoll system API running in ${config.env} mode on port ${config.port}`);
   });
 
   // ─── Graceful Shutdown ─────────────────────────────────

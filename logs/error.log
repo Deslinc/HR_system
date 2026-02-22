@@ -1,0 +1,66 @@
+2026-02-22 21:25:27 [error]: registerAdmin error: next is not a function
+2026-02-22 21:31:37 [error]: registerAdmin error: next is not a function
+2026-02-22 21:43:36 [error]: registerAdmin error: next is not a function
+2026-02-22 21:44:23 [error]: registerAdmin error: next is not a function
+2026-02-22 21:53:29 [error]: TypeError: next is not a function
+    at model.<anonymous> (file:///C:/Users/desli/Desktop/HR_system/user.js:147:3)
+    at async Kareem.execPre (C:\Users\desli\Desktop\HR_system\node_modules\kareem\index.js:70:24)
+    at async model.$__save (C:\Users\desli\Desktop\HR_system\node_modules\mongoose\lib\model.js:371:5)
+    at async model.save (C:\Users\desli\Desktop\HR_system\node_modules\mongoose\lib\model.js:614:5)
+    at async C:\Users\desli\Desktop\HR_system\node_modules\mongoose\lib\model.js:2750:9
+    at async Promise.all (index 0)
+    at async Function.create (C:\Users\desli\Desktop\HR_system\node_modules\mongoose\lib\model.js:2735:11)
+    at async Module.registerAdmin (file:///C:/Users/desli/Desktop/HR_system/AuthService.js:66:17)
+    at async file:///C:/Users/desli/Desktop/HR_system/controller/auth.js:26:17
+2026-02-22 22:07:58 [error]: Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\Users\desli\Desktop\HR_system\models\User.js' imported from C:\Users\desli\Desktop\HR_system\controller\auth.js
+    at finalizeResolution (node:internal/modules/esm/resolve:275:11)
+    at moduleResolve (node:internal/modules/esm/resolve:860:10)
+    at defaultResolve (node:internal/modules/esm/resolve:984:11)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:643:36)
+    at TracingChannel.tracePromise (node:diagnostics_channel:344:14)
+    at ModuleLoader.import (node:internal/modules/esm/loader:642:21)
+2026-02-22 22:08:19 [error]: Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\Users\desli\Desktop\HR_system\models\User.js' imported from C:\Users\desli\Desktop\HR_system\controller\auth.js
+    at finalizeResolution (node:internal/modules/esm/resolve:275:11)
+    at moduleResolve (node:internal/modules/esm/resolve:860:10)
+    at defaultResolve (node:internal/modules/esm/resolve:984:11)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:643:36)
+    at TracingChannel.tracePromise (node:diagnostics_channel:344:14)
+    at ModuleLoader.import (node:internal/modules/esm/loader:642:21)
+2026-02-22 22:28:22 [error]: Error: An admin account already exists. Use the standard user management flow to add more admins.
+    at Module.registerAdmin (file:///C:/Users/desli/Desktop/HR_system/AuthService.js:56:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///C:/Users/desli/Desktop/HR_system/controller/auth.js:26:17
+2026-02-22 22:37:28 [error]: Error: Refresh token is required.
+    at Module.refreshAccessToken (file:///C:/Users/desli/Desktop/HR_system/AuthService.js:254:25)
+    at file:///C:/Users/desli/Desktop/HR_system/controller/auth.js:103:62
+    at file:///C:/Users/desli/Desktop/HR_system/asynchandler.js:7:21
+    at Layer.handleRequest (C:\Users\desli\Desktop\HR_system\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\desli\Desktop\HR_system\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\desli\Desktop\HR_system\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\desli\Desktop\HR_system\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\desli\Desktop\HR_system\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\desli\Desktop\HR_system\node_modules\router\index.js:295:15
+    at processParams (C:\Users\desli\Desktop\HR_system\node_modules\router\index.js:582:12)
+2026-02-22 22:53:11 [error]: Error: Invalid or expired refresh token.
+    at Module.refreshAccessToken (file:///C:/Users/desli/Desktop/HR_system/AuthService.js:261:25)
+    at file:///C:/Users/desli/Desktop/HR_system/controller/auth.js:103:62
+    at file:///C:/Users/desli/Desktop/HR_system/asynchandler.js:7:21
+    at Layer.handleRequest (C:\Users\desli\Desktop\HR_system\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\desli\Desktop\HR_system\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\desli\Desktop\HR_system\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\desli\Desktop\HR_system\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\desli\Desktop\HR_system\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\desli\Desktop\HR_system\node_modules\router\index.js:295:15
+    at processParams (C:\Users\desli\Desktop\HR_system\node_modules\router\index.js:582:12)
+2026-02-22 22:57:42 [error]: Error: Invalid email or password. 4 attempt(s) remaining before account lock.
+    at Module.login (file:///C:/Users/desli/Desktop/HR_system/AuthService.js:128:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///C:/Users/desli/Desktop/HR_system/controller/auth.js:46:47

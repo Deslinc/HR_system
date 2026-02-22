@@ -7,3 +7,131 @@
 2026-02-22 18:37:46 [info]: MongoDB connected: ac-fft2vns-shard-00-01.2aw6wpk.mongodb.net
 2026-02-22 18:37:46 [info]: HR and PayRole system API running in development mode on port 8000
 2026-02-22 18:37:52 [info]: SIGINT received. Shutting down gracefully...
+2026-02-22 18:39:02 [info]: MongoDB connected: ac-fft2vns-shard-00-02.2aw6wpk.mongodb.net
+2026-02-22 18:39:02 [info]: HR and PayRole system API running in development mode on port 8000
+2026-02-22 20:52:58 [warn]: MongoDB disconnected. Attempting to reconnect...
+2026-02-22 20:52:59 [info]: MongoDB reconnected.
+2026-02-22 20:53:16 [warn]: MongoDB disconnected. Attempting to reconnect...
+2026-02-22 20:53:28 [info]: MongoDB reconnected.
+2026-02-22 21:10:31 [info]: MongoDB connected: ac-fft2vns-shard-00-00.2aw6wpk.mongodb.net
+2026-02-22 21:10:32 [info]: HR and PayRole system API running in development mode on port 8000
+2026-02-22 21:15:16 [info]: MongoDB connected: ac-fft2vns-shard-00-01.2aw6wpk.mongodb.net
+2026-02-22 21:15:16 [info]: HR and PayRole system API running in development mode on port 8000
+2026-02-22 21:15:42 [info]: SIGINT received. Shutting down gracefully...
+2026-02-22 21:15:55 [info]: MongoDB connected: ac-fft2vns-shard-00-01.2aw6wpk.mongodb.net
+2026-02-22 21:15:55 [info]: HR and PayRole system API running in development mode on port 8000
+2026-02-22 21:16:21 [info]: MongoDB connected: ac-fft2vns-shard-00-01.2aw6wpk.mongodb.net
+2026-02-22 21:16:21 [info]: HR and PayRoll system API running in development mode on port 8000
+2026-02-22 21:16:35 [info]: SIGINT received. Shutting down gracefully...
+2026-02-22 21:16:44 [info]: MongoDB connected: ac-fft2vns-shard-00-01.2aw6wpk.mongodb.net
+2026-02-22 21:16:45 [info]: HR and PayRoll system API running in development mode on port 8000
+2026-02-22 21:25:27 [error]: registerAdmin error: next is not a function
+2026-02-22 21:28:38 [info]: MongoDB connected: ac-fft2vns-shard-00-02.2aw6wpk.mongodb.net
+2026-02-22 21:28:38 [info]: HR and PayRoll system API running in development mode on port 8000
+2026-02-22 21:28:58 [info]: MongoDB connected: ac-fft2vns-shard-00-02.2aw6wpk.mongodb.net
+2026-02-22 21:28:58 [info]: HR and PayRoll system API running in development mode on port 8000
+2026-02-22 21:31:12 [info]: SIGINT received. Shutting down gracefully...
+2026-02-22 21:31:23 [info]: MongoDB connected: ac-fft2vns-shard-00-01.2aw6wpk.mongodb.net
+2026-02-22 21:31:23 [info]: HR and PayRoll system API running in development mode on port 6000
+2026-02-22 21:31:37 [error]: registerAdmin error: next is not a function
+2026-02-22 21:39:43 [info]: MongoDB connected: ac-fft2vns-shard-00-01.2aw6wpk.mongodb.net
+2026-02-22 21:39:43 [info]: HR and PayRoll system API running in development mode on port 6000
+2026-02-22 21:42:38 [info]: MongoDB connected: ac-fft2vns-shard-00-01.2aw6wpk.mongodb.net
+2026-02-22 21:42:38 [info]: HR and PayRoll system API running in development mode on port 6000
+2026-02-22 21:43:36 [error]: registerAdmin error: next is not a function
+2026-02-22 21:43:59 [info]: SIGINT received. Shutting down gracefully...
+2026-02-22 21:44:13 [info]: MongoDB connected: ac-fft2vns-shard-00-00.2aw6wpk.mongodb.net
+2026-02-22 21:44:13 [info]: HR and PayRoll system API running in development mode on port 6000
+2026-02-22 21:44:23 [error]: registerAdmin error: next is not a function
+2026-02-22 21:51:07 [info]: MongoDB connected: ac-fft2vns-shard-00-01.2aw6wpk.mongodb.net
+2026-02-22 21:51:07 [info]: HR and PayRoll system API running in development mode on port 6000
+2026-02-22 21:52:34 [info]: MongoDB connected: ac-fft2vns-shard-00-01.2aw6wpk.mongodb.net
+2026-02-22 21:52:34 [info]: HR and PayRoll system API running in development mode on port 6000
+2026-02-22 21:52:43 [info]: SIGINT received. Shutting down gracefully...
+2026-02-22 21:52:56 [info]: MongoDB connected: ac-fft2vns-shard-00-01.2aw6wpk.mongodb.net
+2026-02-22 21:52:56 [info]: HR and PayRoll system API running in development mode on port 6000
+2026-02-22 21:53:29 [error]: TypeError: next is not a function
+    at model.<anonymous> (file:///C:/Users/desli/Desktop/HR_system/user.js:147:3)
+    at async Kareem.execPre (C:\Users\desli\Desktop\HR_system\node_modules\kareem\index.js:70:24)
+    at async model.$__save (C:\Users\desli\Desktop\HR_system\node_modules\mongoose\lib\model.js:371:5)
+    at async model.save (C:\Users\desli\Desktop\HR_system\node_modules\mongoose\lib\model.js:614:5)
+    at async C:\Users\desli\Desktop\HR_system\node_modules\mongoose\lib\model.js:2750:9
+    at async Promise.all (index 0)
+    at async Function.create (C:\Users\desli\Desktop\HR_system\node_modules\mongoose\lib\model.js:2735:11)
+    at async Module.registerAdmin (file:///C:/Users/desli/Desktop/HR_system/AuthService.js:66:17)
+    at async file:///C:/Users/desli/Desktop/HR_system/controller/auth.js:26:17
+2026-02-22 21:56:25 [info]: MongoDB connected: ac-fft2vns-shard-00-02.2aw6wpk.mongodb.net
+2026-02-22 21:56:25 [info]: HR and PayRoll system API running in development mode on port 6000
+2026-02-22 21:56:41 [info]: Admin account created: kponyodesmond@gmail.com
+2026-02-22 22:01:02 [info]: User logged in: kponyodesmond@gmail.com [admin]
+2026-02-22 22:07:58 [error]: Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\Users\desli\Desktop\HR_system\models\User.js' imported from C:\Users\desli\Desktop\HR_system\controller\auth.js
+    at finalizeResolution (node:internal/modules/esm/resolve:275:11)
+    at moduleResolve (node:internal/modules/esm/resolve:860:10)
+    at defaultResolve (node:internal/modules/esm/resolve:984:11)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:643:36)
+    at TracingChannel.tracePromise (node:diagnostics_channel:344:14)
+    at ModuleLoader.import (node:internal/modules/esm/loader:642:21)
+2026-02-22 22:08:19 [error]: Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\Users\desli\Desktop\HR_system\models\User.js' imported from C:\Users\desli\Desktop\HR_system\controller\auth.js
+    at finalizeResolution (node:internal/modules/esm/resolve:275:11)
+    at moduleResolve (node:internal/modules/esm/resolve:860:10)
+    at defaultResolve (node:internal/modules/esm/resolve:984:11)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:780:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:704:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:687:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:305:38)
+    at onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:643:36)
+    at TracingChannel.tracePromise (node:diagnostics_channel:344:14)
+    at ModuleLoader.import (node:internal/modules/esm/loader:642:21)
+2026-02-22 22:19:17 [info]: MongoDB connected: ac-fft2vns-shard-00-01.2aw6wpk.mongodb.net
+2026-02-22 22:19:17 [info]: HR and PayRoll system API running in development mode on port 6000
+2026-02-22 22:19:27 [info]: MongoDB connected: ac-fft2vns-shard-00-01.2aw6wpk.mongodb.net
+2026-02-22 22:19:27 [info]: HR and PayRoll system API running in development mode on port 6000
+2026-02-22 22:19:33 [info]: MongoDB connected: ac-fft2vns-shard-00-01.2aw6wpk.mongodb.net
+2026-02-22 22:19:34 [info]: HR and PayRoll system API running in development mode on port 6000
+2026-02-22 22:19:50 [info]: SIGINT received. Shutting down gracefully...
+2026-02-22 22:20:06 [info]: MongoDB connected: ac-fft2vns-shard-00-01.2aw6wpk.mongodb.net
+2026-02-22 22:20:06 [info]: HR and PayRoll system API running in development mode on port 6000
+2026-02-22 22:20:26 [info]: User logged in: kponyodesmond@gmail.com [admin]
+2026-02-22 22:25:08 [info]: User logged out: 699b7b991ce14f2ae70c874b
+2026-02-22 22:28:22 [error]: Error: An admin account already exists. Use the standard user management flow to add more admins.
+    at Module.registerAdmin (file:///C:/Users/desli/Desktop/HR_system/AuthService.js:56:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///C:/Users/desli/Desktop/HR_system/controller/auth.js:26:17
+2026-02-22 22:37:28 [error]: Error: Refresh token is required.
+    at Module.refreshAccessToken (file:///C:/Users/desli/Desktop/HR_system/AuthService.js:254:25)
+    at file:///C:/Users/desli/Desktop/HR_system/controller/auth.js:103:62
+    at file:///C:/Users/desli/Desktop/HR_system/asynchandler.js:7:21
+    at Layer.handleRequest (C:\Users\desli\Desktop\HR_system\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\desli\Desktop\HR_system\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\desli\Desktop\HR_system\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\desli\Desktop\HR_system\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\desli\Desktop\HR_system\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\desli\Desktop\HR_system\node_modules\router\index.js:295:15
+    at processParams (C:\Users\desli\Desktop\HR_system\node_modules\router\index.js:582:12)
+2026-02-22 22:37:57 [info]: User logged in: kponyodesmond@gmail.com [admin]
+2026-02-22 22:38:23 [info]: User created by admin 699b7b991ce14f2ae70c874b: deslinc19@gmail.com [department_head]
+2026-02-22 22:47:23 [info]: Password set for user: deslinc19@gmail.com
+2026-02-22 22:48:33 [info]: User logged in: deslinc19@gmail.com [department_head]
+2026-02-22 22:49:49 [info]: User logged out: 699b855fd7785748e28f35b5
+2026-02-22 22:53:11 [error]: Error: Invalid or expired refresh token.
+    at Module.refreshAccessToken (file:///C:/Users/desli/Desktop/HR_system/AuthService.js:261:25)
+    at file:///C:/Users/desli/Desktop/HR_system/controller/auth.js:103:62
+    at file:///C:/Users/desli/Desktop/HR_system/asynchandler.js:7:21
+    at Layer.handleRequest (C:\Users\desli\Desktop\HR_system\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\desli\Desktop\HR_system\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\desli\Desktop\HR_system\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\desli\Desktop\HR_system\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\desli\Desktop\HR_system\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\desli\Desktop\HR_system\node_modules\router\index.js:295:15
+    at processParams (C:\Users\desli\Desktop\HR_system\node_modules\router\index.js:582:12)
+2026-02-22 22:57:20 [info]: Password changed for user: deslinc19@gmail.com
+2026-02-22 22:57:42 [error]: Error: Invalid email or password. 4 attempt(s) remaining before account lock.
+    at Module.login (file:///C:/Users/desli/Desktop/HR_system/AuthService.js:128:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///C:/Users/desli/Desktop/HR_system/controller/auth.js:46:47
+2026-02-22 22:58:03 [info]: User logged in: deslinc19@gmail.com [department_head]
+2026-02-22 22:59:16 [info]: SIGINT received. Shutting down gracefully...
