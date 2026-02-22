@@ -1,4 +1,14 @@
 {
+
+  "name": "hr_system",
+  "version": "1.0.0",
+  "description": "A Human Resources Management System built with Node.js, Express, and MongoDB. This application provides functionalities for employee management, attendance tracking, and performance evaluation.",
+   "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
   "dependencies": {
     "bcryptjs": "^3.0.3",
     "cookie-parser": "^1.4.7",
