@@ -1,13 +1,13 @@
 import crypto from 'crypto';
 import bcrypt from 'bcryptjs';
-import User from '../models/User.js';
-import config from '../config/env.js';
+import User from './user.js';
+import config from './env.js';
 import {
   signAccessToken,
   signRefreshToken,
   verifyRefreshToken,
-} from '../utils/token.js';
-import logger from '../utils/logger.js';
+} from './token.js';
+import logger from './logger.js';
 
 // ─── Helpers ───────────────────────────────────────────────
 

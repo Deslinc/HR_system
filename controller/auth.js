@@ -1,6 +1,6 @@
 import * as authService from '../AuthService.js';
 import { sendSuccess, sendError } from '../response.js';
-import { attachRefreshCookie, clearRefreshCookie } from '..token.js';
+import { attachRefreshCookie, clearRefreshCookie } from '../token.js';
 import {
   adminRegisterSchema,
   loginSchema,
